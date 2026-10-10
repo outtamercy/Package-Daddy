@@ -1,0 +1,157 @@
+{
+  "format": 2,
+  "name": "Package Daddy Catalog",
+  "description": "Curated MO2 plugins and themes. Listed is not installable.",
+  "sources": [
+    {
+      "name": "Official MO2 Extension Plugin List",
+      "url": "https://github.com/ModOrganizer2/modorganizer/wiki/List-of-MO2-Extension-Plugins",
+      "role": "discovery"
+    }
+  ],
+  "packages": [
+    {
+      "id": "package-daddy",
+      "name": "Package Daddy",
+      "kind": "mo2-plugin",
+      "state": "verified",
+      "archive_terms": ["package", "daddy"],
+      "source_url": "https://github.com/outtamercy/Package-Daddy",
+      "discord_url": "https://discord.gg/We2jgKAaVR"
+    },
+    {
+      "id": "file-watchdog",
+      "name": "File Watchdog",
+      "kind": "mo2-plugin",
+      "state": "verified",
+      "archive_terms": ["file", "watchdog"],
+      "nexus_url": "https://www.nexusmods.com/skyrimspecialedition/mods/182070",
+      "discord_url": "https://discord.gg/We2jgKAaVR"
+    },
+    {
+      "id": "root-dna",
+      "name": "RootDNA",
+      "kind": "mo2-plugin",
+      "state": "verified",
+      "archive_terms": ["rootdna"],
+      "nexus_url": "https://www.nexusmods.com/skyrimspecialedition/mods/192430",
+      "discord_url": "https://discord.gg/We2jgKAaVR"
+    },
+    {
+      "id": "skygen",
+      "name": "SkyGen",
+      "kind": "mo2-plugin",
+      "state": "verified",
+      "archive_terms": ["skygen"],
+      "nexus_url": "https://www.nexusmods.com/skyrimspecialedition/mods/154450",
+      "discord_url": "https://discord.gg/We2jgKAaVR"
+    },
+    {
+      "id": "mo2-nexus-api-extender",
+      "name": "MO2 Nexus API Extender",
+      "kind": "mo2-plugin",
+      "state": "verified",
+      "archive_terms": ["mo2", "nexus", "api", "extender"],
+      "nexus_url": "https://www.nexusmods.com/site/mods/2341",
+      "source_url": "https://github.com/jturnley/MO2-Nexus-API-Extender"
+    },
+    {
+      "id": "modorganizer-openmw",
+      "name": "ModOrganizer-to-OpenMW",
+      "kind": "mo2-plugin",
+      "state": "listed",
+      "archive_terms": ["modorganizer", "openmw"],
+      "wiki_url": "https://github.com/ModOrganizer2/modorganizer/wiki/List-of-MO2-Extension-Plugins"
+    },
+    {
+      "id": "root-linker",
+      "name": "Root Linker",
+      "kind": "mo2-plugin",
+      "state": "listed",
+      "archive_terms": ["root", "linker"],
+      "wiki_url": "https://github.com/ModOrganizer2/modorganizer/wiki/List-of-MO2-Extension-Plugins"
+    },
+    {
+      "id": "grass-precacher",
+      "name": "Grass Precacher",
+      "kind": "mo2-plugin",
+      "state": "listed",
+      "archive_terms": ["grass", "precacher"],
+      "wiki_url": "https://github.com/ModOrganizer2/modorganizer/wiki/List-of-MO2-Extension-Plugins"
+    },
+    {
+      "id": "plugin-finder",
+      "name": "Plugin Finder",
+      "kind": "mo2-plugin",
+      "state": "verified",
+      "archive_terms": ["plugin", "finder"],
+      "wiki_url": "https://github.com/ModOrganizer2/modorganizer/wiki/List-of-MO2-Extension-Plugins"
+    },
+    {
+      "id": "plugin-browser",
+      "name": "Plugin Browser",
+      "kind": "mo2-plugin",
+      "state": "verified",
+      "archive_terms": ["plugin", "browser"],
+      "nexus_url": "https://www.nexusmods.com/site/mods/1742",
+      "source_url": "https://github.com/Pickysaurus/MO2-Plugin-Browser"
+    },
+    {
+      "id": "profile-sync",
+      "name": "Profile Sync",
+      "kind": "mo2-plugin",
+      "state": "listed",
+      "archive_terms": ["profile", "sync"],
+      "wiki_url": "https://github.com/ModOrganizer2/modorganizer/wiki/List-of-MO2-Extension-Plugins"
+    },
+    {
+      "id": "root-builder",
+      "name": "Root Builder",
+      "kind": "mo2-plugin",
+      "state": "listed",
+      "archive_terms": ["root", "builder"],
+      "wiki_url": "https://github.com/ModOrganizer2/modorganizer/wiki/List-of-MO2-Extension-Plugins"
+    },
+    {
+      "id": "loot-config-loader",
+      "name": "LOOT Config Loader",
+      "kind": "mo2-plugin",
+      "state": "blocked",
+      "archive_terms": ["loot", "config", "loader"],
+      "reason": "Current known archive imports PyQt5; this MO2 install uses PyQt6.",
+      "wiki_url": "https://github.com/ModOrganizer2/modorganizer/wiki/List-of-MO2-Extension-Plugins"
+    },
+    {
+      "id": "loot-warning-checker",
+      "name": "LOOT Warning Checker",
+      "kind": "mo2-plugin",
+      "state": "listed",
+      "archive_terms": ["loot", "warning", "checker"],
+      "wiki_url": "https://github.com/ModOrganizer2/modorganizer/wiki/List-of-MO2-Extension-Plugins"
+    },
+    {
+      "id": "crash-log-tools",
+      "name": "Crash Log Tools",
+      "kind": "mo2-plugin",
+      "state": "listed",
+      "archive_terms": ["crash", "log", "tools"],
+      "wiki_url": "https://github.com/ModOrganizer2/modorganizer/wiki/List-of-MO2-Extension-Plugins"
+    },
+    {
+      "id": "broom",
+      "name": "Broom - The Loose File Sweeper",
+      "kind": "mo2-plugin",
+      "state": "listed",
+      "archive_terms": ["broom"],
+      "wiki_url": "https://github.com/ModOrganizer2/modorganizer/wiki/List-of-MO2-Extension-Plugins"
+    },
+    {
+      "id": "black-hand-theme",
+      "name": "Black Hand - MO2 Theme",
+      "kind": "mo2-theme",
+      "state": "listed",
+      "archive_terms": ["black", "hand", "theme"],
+      "wiki_url": "https://github.com/ModOrganizer2/modorganizer/wiki/List-of-MO2-Extension-Plugins"
+    }
+  ]
+}
