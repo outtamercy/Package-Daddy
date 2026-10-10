@@ -33,6 +33,7 @@
       "compatibility": "verified-current",
       "archive_terms": ["file", "watchdog"],
       "nexus_url": "https://www.nexusmods.com/skyrimspecialedition/mods/182070",
+      "source_url": "https://github.com/outtamercy/File-WatchDog",
       "discord_url": "https://discord.gg/We2jgKAaVR"
     },
     {
@@ -43,6 +44,7 @@
       "compatibility": "verified-current",
       "archive_terms": ["rootdna"],
       "nexus_url": "https://www.nexusmods.com/skyrimspecialedition/mods/192430",
+      "source_url": "https://github.com/outtamercy/RootDNA",
       "discord_url": "https://discord.gg/We2jgKAaVR"
     },
     {
@@ -53,6 +55,7 @@
       "compatibility": "verified-current",
       "archive_terms": ["skygen"],
       "nexus_url": "https://www.nexusmods.com/skyrimspecialedition/mods/154450",
+      "source_url": "https://github.com/outtamercy/SkyGen",
       "discord_url": "https://discord.gg/We2jgKAaVR"
     },
     {
@@ -98,6 +101,9 @@
       "kind": "mo2-plugin",
       "state": "verified",
       "compatibility": "verified-current",
+      "releases": [
+        {"version": "2.0.0", "released": "2023-12-04", "min_working": "2.4.0", "max_working": "", "min_support": "2.4.0", "max_support": "2.5.0"}
+      ],
       "archive_terms": ["plugin", "finder"],
       "wiki_url": "https://github.com/ModOrganizer2/modorganizer/wiki/List-of-MO2-Extension-Plugins"
     },
@@ -126,6 +132,9 @@
       "kind": "mo2-plugin",
       "state": "listed",
       "compatibility": "unknown",
+      "releases": [
+        {"version": "5.1.1", "released": "2026-01-09", "min_working": "2.4.0", "max_working": "", "min_support": "2.4.0", "max_support": "2.5.0"}
+      ],
       "archive_terms": ["root", "builder"],
       "wiki_url": "https://github.com/ModOrganizer2/modorganizer/wiki/List-of-MO2-Extension-Plugins"
     },
@@ -145,6 +154,9 @@
       "kind": "mo2-plugin",
       "state": "listed",
       "compatibility": "unknown",
+      "releases": [
+        {"version": "1.4.0", "released": "2024-08-04", "min_working": "2.5.2", "max_working": "", "min_support": "2.5.2", "max_support": "2.5.2"}
+      ],
       "archive_terms": ["loot", "warning", "checker"],
       "wiki_url": "https://github.com/ModOrganizer2/modorganizer/wiki/List-of-MO2-Extension-Plugins"
     },
