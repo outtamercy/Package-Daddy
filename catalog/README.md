@@ -21,6 +21,50 @@ compatible with the user's MO2/Python/Qt version, or safely packaged.
 - `blocked` — retained so users can see why it is not offered. Include a
   human-readable `reason`.
 
+## Compatibility is two separate questions
+
+Package Daddy records an optional ISO `release_date` and a compatibility
+signal for every catalog entry. This lets the catalog flag a release as
+`likely-current` when it was published on or after the MO2 2.5.2 baseline.
+That is useful triage: a plugin released last week deserves a look before one
+released years ago. It is **not** a promise that it loads.
+
+The important hard boundary is MO2 2.5.0, which moved extensions to Qt6 and
+Python 3.11. Old PyQt5-era packages are `unknown` until reviewed and should
+never become installable just because their release date is recent-looking.
+
+Use one of these values in `compatibility`:
+
+- `verified-current` — actually checked on the stated current MO2 baseline.
+- `likely-current` — recent enough to be a sensible review candidate; not yet
+  verified or installable.
+- `unknown` — no compatibility conclusion has been made.
+- `known-incompatible` — do not offer it as an install target; include why.
+
+Add `release_date` as `YYYY-MM-DD` only when it comes from the project or
+release source. No guessing dates from archive filenames.
+
+### PF-style release record
+
+Once a maintainer has checked a release, put the compatibility fact on that
+release rather than making a vague claim about the whole project:
+
+```json
+{
+  "version": "1.4.0",
+  "released": "2026-10-09",
+  "min_working": "2.5.2",
+  "max_working": "",
+  "min_support": "2.5.2",
+  "max_support": ""
+}
+```
+
+`min_working` / `max_working` drive Daddy's compatibility decision. The
+support range is shown separately: something can be known to work without the
+author officially supporting that MO2 version. If several release records fit,
+Daddy selects the highest plugin version in the working range.
+
 ## Add an installable package
 
 Do not turn a `listed` entry into `installable` just because its filename
