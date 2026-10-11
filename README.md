@@ -20,4 +20,4 @@ Since apparently nobody reads docs: open Daddy, search or filter the list, hover
 
 Oh, and the API key — optional program stores it using Windows protection, optionally. Translation: if you nuke your Windows account or lose the machine, you might be re-entering that key. Keep your recovery options current. Don't @ me when your login is borked and your key's gone.
 
-Have a mod you'd like to see included? message me on Mayhem's Madness.
+Have a mod you'd like to see included? message me on [Mayhem's Madness](https://discord.gg/WUZeDfbz6N).
