@@ -1,0 +1,57 @@
+name: Catalog addition or correction
+description: Add a project, fix a link/date, or report an incorrect catalog record.
+title: "catalog: "
+labels:
+  - catalog
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the catalog useful. Give us links we can verify;
+        please do not paste API keys, private download links, or mystery mirrors.
+  - type: input
+    id: project
+    attributes:
+      label: Project name
+      placeholder: Example: Root Builder
+    validations:
+      required: true
+  - type: dropdown
+    id: change
+    attributes:
+      label: What needs changing?
+      options:
+        - Add a missing project
+        - Fix an existing project
+        - Update version or date
+        - Correct compatibility information
+        - Fix a broken link
+    validations:
+      required: true
+  - type: textarea
+    id: official-links
+    attributes:
+      label: Official project links
+      description: Nexus, GitHub/GitLab, author page, Discord, or project wiki. One per line is easiest.
+      placeholder: |
+        https://www.nexusmods.com/...
+        https://github.com/...
+    validations:
+      required: true
+  - type: textarea
+    id: release-facts
+    attributes:
+      label: Current release facts
+      description: Version and published/updated date, plus where that information appears.
+      placeholder: "Version 1.2.3 — updated 2026-09-02 on the author's Nexus page"
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: MO2 compatibility evidence
+      description: What MO2 version did you test? If you did not test it, just say so. No shame, no guessing.
+      placeholder: "Tested on MO2 2.5.2 / Python 3.11 / Qt6"
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Include the current catalog entry ID if this is a correction.
