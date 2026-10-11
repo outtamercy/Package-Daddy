@@ -1,0 +1,12 @@
+{
+  "format": 2,
+  "id": "skyrim-factions-mo2-themes",
+  "name": "Skyrim Factions MO2 Themes",
+  "kind": "mo2-theme",
+  "version": "2.4",
+  "install_root": "stylesheets",
+  "files": [
+    "package_daddy.package.json"
+  ],
+  "nexus_url": "https://www.nexusmods.com/skyrimspecialedition/mods/193010"
+}

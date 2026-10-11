@@ -1,0 +1,13 @@
+{
+  "format": 2,
+  "id": "package-daddy",
+  "name": "Package Daddy",
+  "kind": "mo2-plugin",
+  "version": "0.1.0",
+  "install_root": "package-daddy",
+  "files": [
+    "__init__.py",
+    "package_daddy_catalog.json",
+    "package_daddy.package.json"
+  ]
+}

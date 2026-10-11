@@ -1,0 +1,4 @@
+2026-10-11 14:43:34,673 [INFO] Package Daddy booted. Downloads stay hands-off until an install gets approved.
+2026-10-11 14:43:49,215 [INFO] MO2 handed Package Daddy this Downloads path: H:\mo2 downloads
+2026-10-11 14:43:59,475 [INFO] Scan complete: 4529 archives, 123 raw matches, 22 catalog-only rows, 63 shown, 60 older duplicates hidden, 34 installed, 53 name-only .7z/.rar matches.
+2026-10-11 14:44:39,612 [INFO] Scan complete: 4528 archives, 122 raw matches, 23 catalog-only rows, 63 shown, 59 older duplicates hidden, 34 installed, 53 name-only .7z/.rar matches.
