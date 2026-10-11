@@ -1,6 +1,12 @@
-# Package Daddy
+# Package Daddy Catalog
 
-Packages misbehavin' in downloads? Daddy puts them where they belong. Wanna install a new theme, plugin or tool? Daddy's got you covered.
+This is the public, community-maintained catalog that Package Daddy reads for
+MO2 plugins, tools, and themes. It's a directory, not a random-download
+machine: `listed` does not mean reviewed, and reviewed does not mean
+installable. Don't get those twisted.
 
+Got a project to add, or a link/date gone stale? Open an issue or send a pull
+request. Read [the contribution guide](CONTRIBUTING.md) first, so none of us
+are playing twenty questions over a mystery ZIP at 2am.
 
-<img width="498" height="322" alt="GhlX5T8A" src="https://github.com/user-attachments/assets/0c4b6e35-b2ad-46ed-80f2-785d2f46f0d9" />
+The catalog itself and its field rules live in [catalog/](catalog/).
