@@ -9,3 +9,4 @@ This is the public, community-maintained catalog that Package Daddy reads for MO
 Got a project to add, or a link/date gone stale? Open an issue or send a pull request. Read [the contribution guide](CONTRIBUTING.md) first, so none of us are playing twenty questions over a mystery ZIP at 2am.
 
 The catalog itself and its field rules live in [catalog/](catalog/).
+<img width="498" height="322" alt="GhlX5T8A" src="https://github.com/user-attachments/assets/594f42ea-e908-43b3-af3d-80857629b42d" />
